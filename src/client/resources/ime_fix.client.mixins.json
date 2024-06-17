@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.wenzjam.mixin.client",
+	"compatibilityLevel": "JAVA_17",
+	"client": [
+      "MixinTextFieldWidget"
+	, "MixInSelectionManager"
+	, "MixinMinecraftClient"
+	, "MixinKeyboard"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
